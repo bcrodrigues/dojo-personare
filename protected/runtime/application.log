@@ -1,0 +1,89 @@
+2011/02/10 18:52:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(1103): CFilter->filter(Object(CFilterChain))
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(283): CFilterChain->run()
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('user/admin')
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/index.php?r=user/admin
+2011/02/10 18:52:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(1103): CFilter->filter(Object(CFilterChain))
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(283): CFilterChain->run()
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('user/admin')
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/index.php?r=user/admin
+2011/02/10 18:52:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(1103): CFilter->filter(Object(CFilterChain))
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(283): CFilterChain->run()
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('user/admin')
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/index.php?r=user/admin
+2011/02/10 18:52:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(1103): CFilter->filter(Object(CFilterChain))
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(283): CFilterChain->run()
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('user/admin')
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/index.php?r=user/admin
+2011/02/10 23:11:09 [error] [exception.CException] exception 'CException' with message 'Property "GreetingController.message" is not defined.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/rodrigues/dojo-yii/protected/views/greeting/index.php(5): CComponent->__get('message')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CBaseController.php(119): require('/home/rodrigues...')
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/rodrigues...', Array, true)
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(847): CBaseController->renderFile('/home/rodrigues...', Array, true)
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(760): CController->renderPartial('index', Array, true)
+#5 /home/rodrigues/dojo-yii/protected/controllers/GreetingController.php(10): CController->render('index', Array)
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/actions/CInlineAction.php(74): GreetingController->actionIndex()
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(300): CInlineAction->run()
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('index')
+#11 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('greeting/index')
+#12 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#13 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php?r=greeting/index
+2011/02/10 23:28:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(1103): CFilter->filter(Object(CFilterChain))
+#3 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(283): CFilterChain->run()
+#6 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /host/ubuntu/disks/second/Development/Yii/trunk/framework/web/CWebApplication.php(121): CWebApplication->runController('message/admin')
+#9 /host/ubuntu/disks/second/Development/Yii/trunk/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /home/rodrigues/dojo-yii/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/index.php?r=message/admin
+2011/02/10 23:45:20 [error] [system.db.CDbCommand] Error in querying SQL: SHOW COLUMNS FROM `calculator`
+in /home/rodrigues/dojo-yii/index.php (13)
